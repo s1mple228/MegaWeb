@@ -6,27 +6,31 @@
 .block{
     display: flex;
     justify-content: space-between;
-    margin: 0 315px;
-    padding: 71px 0;
+    width: 555px;
+    height: 19px;
+    padding: 71px 0 92px 0;
+    margin: 0 auto;
 }
 h1{
+   
     font-size: 14px;
     font-weight: 400;
     color: rgba(3, 169, 244, 1);
+    font-family: 'Playfair Display', serif;
 }
 .h1{
     color: rgba(125, 125, 125, 1);
 }
 .container{
-    width: 100%;
+    width: 1000px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    row-gap: 126px;
+    gap: 126px 65px;
+    margin: 0 auto;
 }
 .pictures{
     width: 420px;
-    margin: 0 148px;
 }
 .img{
     width: 420px;
