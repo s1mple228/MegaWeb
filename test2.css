@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+body{
+    background: url(./img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+.authContainer{
+    width: 500px;
+    height: 100vh;
+    background: rgba(233, 233, 233, 0.25);
+    backdrop-filter: blur(5px);
+}
+.btns{
+    width: 340px;
+    height: 36px;
+    border: 1px solid #153416;
+    border-radius: 30px;
+    margin: 60px auto 80px auto;
+    padding: 0px 2px;
+    display: flex;
+    align-items: center;
+}
+.btn{
+    cursor: pointer;
+    height: 32px;
+    width: 50%;
+    border: none;
+    border-radius: 30px;
+}
+.btnSingIn{
+    background: rgba(21, 52, 22, 1);
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+/* identical to box height */
+
+}
+.btnSingUp{
+    background: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+/* identical to box height */
+
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+.form{
+    margin: 29px auto 0 auto;
+    display: flex;
+    row-gap: 15px;
+    flex-direction: column;
+    width: 340px;
+}
+.formInput{
+    width: 100%;
+    height: 44px;
+    border: none;
+    border-radius: 30px;
+    background: #929191;
+    color: #fff;
+    font-size: 12px;
+    padding: 23px 15px;
+}
+.formInput::placeholder{
+    color: #fff;
+    font-size: 12px;
+}
+.formInput:focus{
+    outline: none;
+}
+.btnPanel{
+    width: 340px;
+    margin: 20px auto 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rememberUser{
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+.rememberUser>p{
+    color: #fff;
+    font-size: 12px;
+}
+.ForgetLink{
+    color: #153416;
+    font-size: 12px;
+}
+.Enter{
+    display: flex;
+    margin: 30px auto 40px auto;
+    width: 340px;
+}
+.btnEnter{
+    width: 100%;
+    height: 44px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+/* identical to box height */
+
+    text-align: center;
+    background: #153416;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+.register{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto 30px auto;
+    width: 235px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+/* identical to box height */
+
+    text-align: center;
+    color: #153416;
+}
+.reg{
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+}
+.socNetwork{
+    font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-align: center;
+
+color: #153416;
+
+
+}
+.img{
+    display: flex;
+    margin: 20px auto;
+}
