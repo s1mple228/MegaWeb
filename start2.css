@@ -179,7 +179,7 @@ height: 35px;
     font-size: 24px;
     font-weight: 600;
     background: rgb(198, 202, 215);
-    width: 14%;
+    width: 17%;
     height: 130vh;
   }
   .ProductBlock{
@@ -326,12 +326,10 @@ opacity: 1;
 transition-duration: 0.5s;
 }
 .subNavList{
-  display: flex;
-  top: 90px;
+  display: none;
   position: absolute;
   background: rgb(198, 202, 215);
   transition-duration: 0.3s;
-  transform: translateX(-200px);
 }
 .navButton{
   font-size: 20px;
@@ -349,6 +347,9 @@ transition-duration: 0.5s;
   background: none;
 }
 .btnNavList:focus + .subNavList{
+  display: block;
   transition-duration: 0.3s;
-  transform: translateX(140px);
+}
+.navLi{
+  position: relative;
 }
