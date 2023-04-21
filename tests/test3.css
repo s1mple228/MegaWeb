@@ -1,0 +1,25 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    text-transform: lowercase;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 44px;
+    text-align: center;
+}
+.up {
+ text-transform: uppercase;
+ white-space: pre-wrap;
+ letter-spacing: 10px;
+ text-indent: 20px;
+}
+.low {
+text-transform: lowercase;
+word-break: break-all;
+text-indent: 20px;
+}
+.cap {
+text-transform: capitalize;
+text-indent: 20px;
+}

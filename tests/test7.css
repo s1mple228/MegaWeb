@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tableTrain{
+    margin: 100px 30%;
+    width: 40%;
+    border: 2px solid lightskyblue;
+}
+td{
+    padding: 10px;
+    height: 27px;
+    border: 2px solid lightskyblue;
+    transition-duration: 0.3s;
+}
+td:hover{
+    background: plum;
+    color: #fff;
+    transition-duration: 0.5s;
+}
+th{
+    height: 27px;
+    font-weight: 600;
+    text-align: center;
+    border: 2px solid lightskyblue;
+}
+th:hover{
+    background: plum;
+    color: #fff;
+    transition-duration: 0.5s;
+}
