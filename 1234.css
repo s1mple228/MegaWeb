@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.block{
+    width: 300px;
+    height: 100px;
+    background: pink;
+    transition-duration: 0.01s;
+}
+.block:hover{
+    transition-duration: 0.03s;
+    transform: rotate(99099880deg);
+    transform: skew(90deg,45deg);
+}
